@@ -10,35 +10,32 @@
 /*GRID*/
 /*DISEÑO*/
 
-.img-m{
-    width: 100%;
-}
-/*HEADER*/
 
+
+/*HEADER*/
 .header{
     background-image: linear-gradient(to top, $color_fondo2);
     position: sticky;
-}
-.nav-menu{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1rem 0rem;
-    border-bottom: 2px solid black ;
-}
-.header-home{
-    display: inline-block;
-    list-style-type: none;
-}
-.header-menu{
-    list-style-type: none;
-}
-.header-menu li{
-    display: inline-block;
-    margin: 1rem 2rem;
-    font-weight: bolder;
-}
-.nameic{
+    .nav-menu{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1rem 0rem;
+        border-bottom: 2px solid black ;
+    }
+    .header-home{
+        display: inline-block;
+        list-style-type: none;
+    }
+    .header-menu{
+        list-style-type: none;
+        li{
+            display: inline-block;
+            margin: 1rem 2rem;
+            font-weight: bolder;
+        }
+    }
+    .nameic{
         display: inline-block;
         margin: 1rem 2rem;
         font-weight: bolder;
@@ -47,10 +44,13 @@
         font-size: 20px;
         text-align: center;
 }
+
+}
 /*HEADER*/
 /* TITULO */
 .titulo{
     border-bottom: 2px solid black;
+    border-top: 2px solid black;
 }
 /* TITULO */
 
@@ -65,14 +65,13 @@
     border-top: 2px solid black;
     padding: 2rem 0 2rem;
     font-weight: bolder;
-}
-.redes{
-    display: flex;
-    gap: 20px;
+    .redes{
+        display: flex;
+        gap: 20px;
+    }
 }
 /* FOOTER */
 /*DISEÑO*/
-
 /* SECCIONES*/
 /* SABORES */
 .sabores{
@@ -81,16 +80,14 @@
     align-items: center;
     justify-content: center;
     gap: 40px;
-}
-
-.sabores p{
-   padding: 20px 20px;
-}
-.sabores img{
-    padding-bottom: 20px;
+    p{
+        padding: 20px 20px;
+     }
+     img{
+        padding-bottom: 20px;
+    }
 }
 /* SABORES */
-
 /* CONTACTO */
 .cont-form{
     display: flex;
@@ -98,42 +95,47 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 20rem;
+    .datosform{
+        display: flex;
+        margin-top: 1rem;
+        
+        gap: 1rem;
+    }
+    .textform{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        gap: 10px;
+        
+    }
+    .contact{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20rem;
+        padding: 0rem 10rem;
+        margin-top: 4rem;
+        width: 100%;
+    }
+    .contact-date{
+        border-radius: 5px;
+    }
+    .contactbutton{
+        margin-top: 1.5rem;
+        display: inline-block;
+        padding: 0.5rem 1.5rem;
+        border-radius: 20px;
+    }
 }
 
-.datosform{
-    display: flex;
-    margin-top: 1rem;
-    
-    gap: 1rem;
-}
 
-.textform{
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    gap: 10px;
-    
-}
 
-.contact{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20rem;
-    padding: 0rem 10rem;
-    margin-top: 4rem;
-    width: 100%;
-}
-.contact-date{
-    border-radius: 5px;
-}
-.contactbutton{
-    margin-top: 1.5rem;
-    display: inline-block;
-    padding: 0.5rem 1.5rem;
-    border-radius: 20px;
-}
+
+
+
+/* CONTACTO */
+/* ABOUTUS*/
 .accordion-item{
     background-color: antiquewhite;
 }
@@ -146,10 +148,8 @@
     align-items: center;
     justify-content: center;
 }
-/* CONTACTO */
-
+/* ABOUTUS*/
 /* PRODUCTOS */
-
 .productcard{
     display: flex;
     flex-direction: column;
@@ -160,7 +160,6 @@
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
     padding: 0.8rem 1.5rem;
 }
-
 .productcards{
     display: flex;
     justify-content: center;
@@ -173,15 +172,6 @@
 div.card-body{
     background-image: linear-gradient(to bottom, $color_fondo2);
 }
-
-
-
-
 /* PRODUCTOS */
 /* SECCIONES */
 
-/* ANIMACIONES */
-
-
-
-/* ANIMACIONES */
